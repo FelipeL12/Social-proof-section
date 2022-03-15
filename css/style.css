@@ -1,0 +1,65 @@
+/* GLOBAL */
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --color_very_dark_magenta: hsl(300, 43%, 22%);
+    --color_dark_grayish_magenta: hsl(303, 10%, 53%);
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Spartan', sans-serif;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+}
+
+/* MAIN CONTENT */
+
+/* INFO */
+.info {
+    text-align: center;
+    margin: 5rem 2rem 4rem 2rem;
+}
+
+.info h1 {
+    color: var(--color_very_dark_magenta);
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.info p {
+    color: var(--color_dark_grayish_magenta);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.calification {}
+
+.calification_reviews {}
+
+.calification_guru {}
+
+.calification_tech {}
+
+.reviews {}
+
+.reviews_first {}
+
+.reviews_second {}
+
+.reviews_third {}
+
+/* MEDIA QUERY */
+@media (min-width: 1000px) {}
